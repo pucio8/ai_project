@@ -6,21 +6,21 @@ A high-performance nutritional analysis system based on **Large Language Models 
 
 ## 🚀 Key Features
 
-* **Multimodal Intelligence**: Real-time analysis of food labels and meal images powered by **Gemini 3 Flash**.
-* **Automated Evaluation**: 100% test coverage for core logic using **promptfoo**, ensuring mathematical accuracy.
-* **Advanced Guardrails**: Hardened against **Prompt Injection** and adversarial persona-breaking attempts.
-* **Model Benchmarking**: Comparative analysis between **Gemini 3 Flash** and **GPT-4o-mini** regarding precision, latency, and cost.
+- **Multimodal Intelligence**: Real-time analysis of food labels and meal images powered by **Gemini 3 Flash**.
+- **Automated Evaluation**: 100% test coverage for core logic using **promptfoo**, ensuring mathematical accuracy.
+- **Advanced Guardrails**: Hardened against **Prompt Injection** and adversarial persona-breaking attempts.
+- **Model Benchmarking**: Comparative analysis between **Gemini 3 Flash** and **GPT-4o-mini** regarding precision, latency, and cost.
 
 ---
 
 ## 🛠 Advanced Prompt Engineering Techniques
 
-| Technique | Implementation | Goal |
-| :--- | :--- | :--- |
-| **Chain of Thought (CoT)** | `<thought_process>` block | Eliminating mathematical hallucinations. |
-| **Self-Reflection** | Self-verification loop | Auditing results before final output. |
-| **Few-Shot Prompting** | Contextual examples | Enforcing rigid Markdown table structures. |
-| **Persona Pattern** | "Expert Nutritionist" | Maintaining professional boundaries and attack resistance. |
+| Technique                  | Implementation            | Goal                                                       |
+| :------------------------- | :------------------------ | :--------------------------------------------------------- |
+| **Chain of Thought (CoT)** | `<thought_process>` block | Eliminating mathematical hallucinations.                   |
+| **Self-Reflection**        | Self-verification loop    | Auditing results before final output.                      |
+| **Few-Shot Prompting**     | Contextual examples       | Enforcing rigid Markdown table structures.                 |
+| **Persona Pattern**        | "Expert Nutritionist"     | Maintaining professional boundaries and attack resistance. |
 
 ---
 
@@ -28,9 +28,9 @@ A high-performance nutritional analysis system based on **Large Language Models 
 
 The system utilizes the **promptfoo** framework to automate testing and ensure quality in the production cycle:
 
-* **Deterministic Validation**: JS scripts verify that the sum of proteins, fats, and carbs matches the product weight.
-* **Semantic Consistency**: Regex assertions ensure the model always considers the "Training Day" context.
-* **Security Testing**: Negative assertions block attempts to exit the assigned role (e.g., "Developer" or "Pirate" modes).
+- **Deterministic Validation**: JS scripts verify that the sum of proteins, fats, and carbs matches the product weight.
+- **Semantic Consistency**: Regex assertions ensure the model always considers the "Training Day" context.
+- **Security Testing**: Negative assertions block attempts to exit the assigned role (e.g., "Developer" or "Pirate" modes).
 
 ---
 
@@ -52,14 +52,14 @@ The system utilizes the **promptfoo** framework to automate testing and ensure q
 
 ### Prerequisites
 
-* **Node.js (v18+)**: Essential for running the evaluation framework.
-    * **On Windows/macOS/Linux**: It is highly recommended to use **nvm** (Node Version Manager).
-        1. Install nvm from [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm).
-        2. Run: `nvm install node` to get the latest version.
-    * **Alternative**: Download the "LTS" (Long Term Support) installer directly from the [official Node.js website](https://nodejs.org/).
-* **promptfoo CLI**: Install globally once Node.js is ready:
-    `npm install -g promptfoo`
-* **Active API keys**: Required for **Google AI Studio (Gemini)** or **OpenAI**.
+- **Node.js (v18+)**: Essential for running the evaluation framework.
+  - **On Windows/macOS/Linux**: It is highly recommended to use **nvm** (Node Version Manager).
+    1. Install nvm from [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm).
+    2. Run: `nvm install node` to get the latest version.
+  - **Alternative**: Download the "LTS" (Long Term Support) installer directly from the [official Node.js website](https://nodejs.org/).
+- **promptfoo CLI**: Install globally once Node.js is ready:
+  `npm install -g promptfoo`
+- **Active API keys**: Required for **Google AI Studio (Gemini)** or **OpenAI**.
 
 ### Installation & Setup
 
@@ -89,8 +89,3 @@ The system utilizes the **promptfoo** framework to automate testing and ensure q
 - [ ] **LinkedIn Promotion**: Crafting a post highlighting the use of `promptfoo` and `Gemini 3 Flash`.
 
 ---
-
-### Done! 
-I have updated the Node.js installation instructions and kept everything in a single copy-paste block. 
-
-Would you like me to generate the **LinkedIn post** now, or should we focus on the **Technical Summary** for your GitHub profile?
