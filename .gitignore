@@ -1,2 +1,20 @@
+# Sekrety
 .env
-.notes.md
+
+# Środowisko wirtualne Pythona
+.venv/
+__pycache__/
+*.py[cod]
+
+# Notatki prywatne
+.pnotes/
+core/notes.md
+
+# Promptfoo
+.promptfoo/
+outputs.json
+outputs.html
+
+# Systemowe
+.DS_Store
+Thumbs.db
