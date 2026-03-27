@@ -3,7 +3,11 @@ prompts:
 
 providers:
   - id: google:gemini-3-flash-preview
-  # - id: openai:gpt-4o-mini
+  # - id: groq:llama-3.1-8b-instant  
+  # - id: groq:llama-3.3-70b-versatile
+  # - id: mistral:chat:mistral-large-latest
+  # - id: cohere:chat:command-a-03-2025
+  #   label: 'Cohere-Command-A'
 
 tests:
   - vars:

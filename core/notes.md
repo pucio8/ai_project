@@ -38,3 +38,11 @@ tests:
   assert:
   - type: ....
     value: ...
+
+## sparwdzenie wynikow
+
+1. Graficzny interface wyników (cała historia)
+
+```
+promptfoo view
+```

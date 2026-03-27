@@ -68,7 +68,6 @@ The system utilizes the **promptfoo** framework to automate testing and ensure q
 
 2. **Configure the .env file** in the root directory:
    `GOOGLE_API_KEY=your_key_here`
-   `OPENAI_API_KEY=your_key_here`
 
 ### Running Evaluations
 
